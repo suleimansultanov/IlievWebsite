@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './Sidebar.module.css';
 import { profile } from '../data';
+import profileImg from '../assets/alex-portrait.jpeg';
 
 const Sidebar = () => {
     return (
         <aside className={styles.sidebar}>
             <div className={styles.photoContainer}>
-                {/* Placeholder if no image is available yet */}
                 <img
-                    src="https://placehold.co/400x400/1e293b/ffffff?text=AI"
+                    src={profileImg}
                     alt={profile.name}
                     className={styles.photo}
                 />
