@@ -1,0 +1,23 @@
+.appContainer {
+    display: flex;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    background-color: var(--color-background);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .appContainer {
+        flex-direction: column;
+    }
+
+    .mainContent {
+        margin-left: 0;
+    }
+}

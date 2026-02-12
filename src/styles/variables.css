@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --color-primary: #0f172a; /* Dark Slate for Sidebar */
+  --color-secondary: #3b82f6; /* Bright Blue for Accents */
+  --color-accent: #60a5fa; /* Lighter Blue */
+  --color-background: #f8fafc; /* Light Gray/White for Content */
+  --color-text-main: #334155; /* Slate 700 */
+  --color-text-light: #94a3b8; /* Slate 400 */
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-main: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-heading: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Layout */
+  --sidebar-width: 320px;
+  --header-height: 60px; /* Mobile */
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Optional: Dark mode overrides if needed, but sticking to specific design for now */
+}
