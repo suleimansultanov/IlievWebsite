@@ -6,13 +6,15 @@ const Publications = () => {
     return (
         <div className={styles.sectionContainer}>
             <h2 className={styles.sectionTitle}>Selected Publications</h2>
-            <ul className={styles.list}>
-                {publications.map((pub, index) => (
-                    <li key={index} className={styles.listItem}>
-                        {pub}
-                    </li>
-                ))}
-            </ul>
+            <div className={styles.scrollableContainer}>
+                <ol className={styles.numberedList}>
+                    {publications.map((pub, index) => (
+                        <li key={index} className={styles.listItem}>
+                            {pub}
+                        </li>
+                    ))}
+                </ol>
+            </div>
         </div>
     );
 };

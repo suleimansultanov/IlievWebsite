@@ -49,6 +49,37 @@
     left: 0;
 }
 
+/* Numbered List for Publications */
+.numberedList {
+    list-style-type: decimal;
+    padding-left: var(--spacing-lg);
+    /* Space for numbers */
+}
+
+.numberedList .listItem {
+    padding-left: 0;
+    /* Align text naturally with numbers */
+    margin-bottom: var(--spacing-sm);
+}
+
+.numberedList .listItem::before {
+    content: none;
+    /* Remove custom bullet */
+}
+
+/* Scrollable Container */
+.scrollableContainer {
+    max-height: 80vh;
+    /* Or a fixed pixel value like 600px */
+    overflow-y: auto;
+    padding-right: var(--spacing-sm);
+    /* Space for scrollbar */
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    background-color: #fcfcfc;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
