@@ -4,6 +4,8 @@ import Experience from './sections/Experience';
 import Projects from './sections/Projects';
 import Publications from './sections/Publications';
 import Education from './sections/Education';
+import Patents from './sections/Patents';
+import Awards from './sections/Awards';
 
 const ContentArea = ({ activeTab }) => {
     const renderContent = () => {
@@ -18,6 +20,10 @@ const ContentArea = ({ activeTab }) => {
                 return <Publications />;
             case 'education':
                 return <Education />;
+            case 'patents':
+                return <Patents />;
+            case 'awards':
+                return <Awards />;
             default:
                 return <About />;
         }

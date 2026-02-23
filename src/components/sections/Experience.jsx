@@ -14,6 +14,11 @@ const Experience = () => {
                             <span className={styles.date}>{job.period}</span>
                         </div>
                         <p className={styles.cardSubtitle}>{job.institution}</p>
+                        {job.url && (
+                            <a href={job.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                                View Profile →
+                            </a>
+                        )}
                         {job.details && (
                             <ul className={styles.detailList}>
                                 {job.details.map((detail, idx) => (

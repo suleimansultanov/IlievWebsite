@@ -8,6 +8,8 @@ const Tabs = ({ activeTab, setActiveTab }) => {
         { id: 'projects', label: 'Projects' },
         { id: 'publications', label: 'Publications' },
         { id: 'education', label: 'Education' },
+        { id: 'patents', label: 'Patents' },
+        { id: 'awards', label: 'Awards' },
     ];
 
     return (

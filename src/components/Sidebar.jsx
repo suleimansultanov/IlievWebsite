@@ -30,18 +30,21 @@ const Sidebar = () => {
                     <span>📍</span>
                     <span>{profile.location}</span>
                 </div>
-            </div>
-
-            <div className={styles.socialLinks}>
                 {profile.socials.linkedin && (
-                    <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-                        LN
-                    </a>
+                    <div className={styles.contactItem}>
+                        <span>🔗</span>
+                        <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer">
+                            Linked-In
+                        </a>
+                    </div>
                 )}
                 {profile.socials.googleScholar && (
-                    <a href={profile.socials.googleScholar} target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-                        GS
-                    </a>
+                    <div className={styles.contactItem}>
+                        <span>🎓</span>
+                        <a href={profile.socials.googleScholar} target="_blank" rel="noopener noreferrer">
+                            Google Scholar
+                        </a>
+                    </div>
                 )}
             </div>
         </aside>

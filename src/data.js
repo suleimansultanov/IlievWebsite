@@ -6,7 +6,7 @@ export const profile = {
   location: "Berlin, Germany / Berkeley, CA",
   socials: {
     linkedin: "https://www.linkedin.com/in/alexander-iliev", // Assumed URL or from text
-    googleScholar: "https://scholar.google.com/", // Placeholder/Search if needed, text says "Alexander Iliev, Ph.D."
+    googleScholar: "https://scholar.google.bg/citations?view_op=list_works&hl=en&hl=en&user=Utj-jAgAAAAJ&pagesize=80", // Placeholder/Search if needed, text says "Alexander Iliev, Ph.D."
     orcid: "https://orcid.org/0000-0002-4220-3037",
     researchGate: "https://www.researchgate.net/" // Search if needed
   },
@@ -30,7 +30,12 @@ export const profile = {
     },
     {
       role: "Lead Instructor",
-      institution: "UC Berkeley Extension, Berkeley California, USA"
+      institution: "UC Berkeley, Berkeley California, USA",
+      url: "https://www.ischool.berkeley.edu/people/alexander-iliev"
+    },
+    {
+      role: "Professor and Member of Dissertation Committee",
+      institution: "University of Granada, Spain"
     }
   ]
 };
@@ -84,8 +89,9 @@ export const experience = [
   },
   {
     role: "Lead Instructor",
-    institution: "UC Berkeley Extension, CA, USA",
+    institution: "UC Berkeley, CA, USA",
     period: "Sep 2012 - Current",
+    url: "https://www.ischool.berkeley.edu/people/alexander-iliev",
     details: [
       "Teaching Scientific Computing and Machine Learning courses in the Data Science program",
       "Lecturer at College of Engineering (July 2022 - 2024)",
@@ -287,7 +293,7 @@ export const teaching = [
   },
   {
     role: "Lead Instructor",
-    institution: "UC Berkeley Extension",
+    institution: "UC Berkeley",
     courses: ["Machine Learning and Deep Learning", "Introduction to Data Science", "Python for Data Analysis", "Applied Machine Learning (W207)"]
   },
   {
@@ -321,16 +327,44 @@ export const memberships = [
 export const languages = ["English (Fluent)", "Bulgarian (Native)", "Russian (Working Knowledge)", "Spanish (Working Knowledge)"];
 
 export const awards = [
-  "Best paper award 'Crystal Cube Prize' at CompSysTech'21",
-  "Best paper award 'Crystal Cube Prize' at CompSysTech'17",
-  "Fellowship from the Provost at University of Miami (2006)",
-  "Senator of the Graduate Student Association (2007-2009)",
-  "Best Attendance Award at UM (2003, 2004)",
-  "AES Educational Foundation Stipend (1998-1999)"
+  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 22nd International Conference on Computer Systems and Technologies CompSysTech'21, Ruse, Bulgaria",
+  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017",
+  "Fellowship from the Provost at University of Miami, May.2006",
+  "Honor Society \"Eta Kappa Nu\", Nov.2006",
+  "Senator of the Graduate Student Association, 2007-2009",
+  "Best Attendance Award at UM, 1st: Jun-Dec.2003; 2nd: Jan-Jun.2004",
+  "Audio Engineering Society (AES) Educational Foundation Stipend, Jul.1998-1999"
 ];
 
 export const grants = [
   "UW Stevens Point: Principal Investigator - Startup Grant (2017)",
   "UW Stevens Point: Enhancement Grant - Raspberry Pi Cluster (2018)",
   "Bulgarian Academy of Sciences: Erasmus+ Mobility Grant (2016-19)"
+];
+
+export const patents = [
+  {
+    patentNumber: "U.S. Patent No. 7,079,633 B2",
+    dateIssued: "July 18, 2006",
+    title: "Coding a Masked Data Channel in a Radio Signal",
+    inventors: "A.I. Iliev, M. S. Scordilis and H. Leventhal",
+    assignee: null,
+    type: null
+  },
+  {
+    patentNumber: "U.S. Patent No. 6,996,521 B2",
+    dateIssued: "February 07, 2006",
+    title: "Auxiliary channel masking in an audio signal",
+    inventors: "A.I. Iliev and M. S. Scordilis",
+    assignee: "University of Miami",
+    type: null
+  },
+  {
+    patentNumber: "Patent No. 5104 U1",
+    dateIssued: "29.08.2025",
+    title: "Big Data Processing System",
+    inventors: "A.I. Shikalanov, L.M. Kirilov, E.P. Kovacheva, R.V. Nikolov, E.D. Shoikova-Stoyanova, A.I. Iliev, L.I. Gotsev",
+    assignee: "Patent Office of the Republic of Bulgaria",
+    type: "Utility model"
+  }
 ];
