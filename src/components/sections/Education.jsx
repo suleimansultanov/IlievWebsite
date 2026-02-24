@@ -1,5 +1,5 @@
 import React from 'react';
-import { education, awards, grants } from '../../data';
+import { education, fellowshipsHonors } from '../../data';
 import styles from './Sections.module.css';
 
 const Education = () => {
@@ -21,15 +21,8 @@ const Education = () => {
 
             <h2 className={styles.sectionTitle}>Fellowships & Honors</h2>
             <ul className={styles.list}>
-                {awards.map((award, index) => (
-                    <li key={index} className={styles.listItem}>{award}</li>
-                ))}
-            </ul>
-
-            <h2 className={styles.sectionTitle}>Grants</h2>
-            <ul className={styles.list}>
-                {grants.map((grant, index) => (
-                    <li key={index} className={styles.listItem}>{grant}</li>
+                {fellowshipsHonors.map((honor, index) => (
+                    <li key={index} className={styles.listItem}>{honor}</li>
                 ))}
             </ul>
         </div>

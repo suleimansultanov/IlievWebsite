@@ -73,11 +73,6 @@ export const experience = [
     details: ["Professor at the International Postgraduate School", "Member of Dissertation Committee at the School of Economics and Business Management"]
   },
   {
-    role: "Lecturer for the Audio Master's Program",
-    institution: "Sofia University St. Kliment Ohridski, Bulgaria",
-    period: "March 2023",
-  },
-  {
     role: "Professor & Academic Head",
     institution: "SRH Berlin University, Germany",
     period: "Nov 2019 - Current",
@@ -328,7 +323,10 @@ export const languages = ["English (Fluent)", "Bulgarian (Native)", "Russian (Wo
 
 export const awards = [
   "Best paper award \"Crystal Cube Prize The Best Paper\" at the 22nd International Conference on Computer Systems and Technologies CompSysTech'21, Ruse, Bulgaria",
-  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017",
+  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017"
+];
+
+export const fellowshipsHonors = [
   "Fellowship from the Provost at University of Miami, May.2006",
   "Honor Society \"Eta Kappa Nu\", Nov.2006",
   "Senator of the Graduate Student Association, 2007-2009",
