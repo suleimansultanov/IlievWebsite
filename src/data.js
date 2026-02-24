@@ -98,7 +98,7 @@ export const experience = [
   {
     role: "Associate Professor",
     institution: "Bulgarian Academy of Sciences, Bulgaria",
-    period: "May 2023 - Current",
+    period: "Nov 2014 - Current",
     details: [
       "Research in Big Data and AI areas",
       "Associate Professor at Software Engineering and Information Systems Dept (Nov 2014 - April 2023)",
