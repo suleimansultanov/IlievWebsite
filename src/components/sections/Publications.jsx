@@ -5,7 +5,7 @@ import styles from './Sections.module.css';
 const Publications = () => {
     return (
         <div className={styles.sectionContainer}>
-            <h2 className={styles.sectionTitle}>Selected Publications</h2>
+            <h2 className={styles.sectionTitle}>Publications</h2>
             <div className={styles.scrollableContainer}>
                 <ol className={styles.numberedList}>
                     {publications.map((pub, index) => (

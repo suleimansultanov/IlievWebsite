@@ -19,7 +19,7 @@ const Education = () => {
                 ))}
             </div>
 
-            <h2 className={styles.sectionTitle}>Fellowships & Honors</h2>
+            <h2 className={styles.sectionTitle}>Fellowships</h2>
             <ul className={styles.list}>
                 {fellowshipsHonors.map((honor, index) => (
                     <li key={index} className={styles.listItem}>{honor}</li>

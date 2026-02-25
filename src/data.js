@@ -167,11 +167,13 @@ export const projects = [
   {
     title: "ENACT 2024-2028",
     funding: "European Commission",
-    role: "Project Member" // Assumed
+    role: "Project Member", // Assumed
+    link: "https://cordis.europa.eu/project/id/101157151"
   },
   {
     title: "NutriWell 2024-2026",
     funding: "European Commission",
+    link: "https://virtech.bg/nutriwell-2/"
   },
   {
     title: "OpenAIRE Advance",
@@ -212,7 +214,8 @@ export const projects = [
   },
   {
     title: "EIT Climate KIC (COVID-19 Call) TRANSFORM",
-    details: "Smart Climate KIC City Transformation"
+    details: "Smart Climate KIC City Transformation",
+    link: "https://www.sofia-da.eu/en/past/transform-project.html"
   }
 ];
 
@@ -323,14 +326,15 @@ export const languages = ["English (Fluent)", "Bulgarian (Native)", "Russian (Wo
 
 export const awards = [
   "Best paper award \"Crystal Cube Prize The Best Paper\" at the 22nd International Conference on Computer Systems and Technologies CompSysTech'21, Ruse, Bulgaria",
-  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017"
+  "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017",
+  "Honor Society \"Eta Kappa Nu\", Nov.2006",
+  "Best Attendance Award - UM, Jun-Dec.2003",
+  "Best Attendance Award - UM, Jan-Jun.2004"
 ];
 
 export const fellowshipsHonors = [
   "Fellowship from the Provost at University of Miami, May.2006",
-  "Honor Society \"Eta Kappa Nu\", Nov.2006",
   "Senator of the Graduate Student Association, 2007-2009",
-  "Best Attendance Award at UM, 1st: Jun-Dec.2003; 2nd: Jan-Jun.2004",
   "Audio Engineering Society (AES) Educational Foundation Stipend, Jul.1998-1999"
 ];
 
@@ -347,7 +351,8 @@ export const patents = [
     title: "Coding a Masked Data Channel in a Radio Signal",
     inventors: "A.I. Iliev, M. S. Scordilis and H. Leventhal",
     assignee: null,
-    type: null
+    type: null,
+    link: "https://patents.google.com/patent/US7079633B2/en"
   },
   {
     patentNumber: "U.S. Patent No. 6,996,521 B2",
@@ -355,7 +360,8 @@ export const patents = [
     title: "Auxiliary channel masking in an audio signal",
     inventors: "A.I. Iliev and M. S. Scordilis",
     assignee: "University of Miami",
-    type: null
+    type: null,
+    link: "https://patents.google.com/patent/US6996521B2/en"
   },
   {
     patentNumber: "Patent No. 5104 U1",
@@ -363,6 +369,7 @@ export const patents = [
     title: "Big Data Processing System",
     inventors: "A.I. Shikalanov, L.M. Kirilov, E.P. Kovacheva, R.V. Nikolov, E.D. Shoikova-Stoyanova, A.I. Iliev, L.I. Gotsev",
     assignee: "Patent Office of the Republic of Bulgaria",
-    type: "Utility model"
+    type: "Utility model",
+    link: "https://portal.bpo.bg/bpo-registers/utility-models/view/BG_U_2025_6432"
   }
 ];

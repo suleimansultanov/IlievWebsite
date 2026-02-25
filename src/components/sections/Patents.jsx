@@ -10,7 +10,15 @@ const Patents = () => {
                 {patents.map((patent, index) => (
                     <div key={index} className={styles.timelineItem}>
                         <div className={styles.timelineHeader}>
-                            <h3 className={styles.cardTitle}>{patent.title}</h3>
+                            <h3 className={styles.cardTitle}>
+                                {patent.link ? (
+                                    <a href={patent.link} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                                        {patent.title}
+                                    </a>
+                                ) : (
+                                    patent.title
+                                )}
+                            </h3>
                             <span className={styles.date}>{patent.dateIssued}</span>
                         </div>
                         <p className={styles.cardSubtitle}>
