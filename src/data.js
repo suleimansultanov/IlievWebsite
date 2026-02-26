@@ -5,7 +5,7 @@ export const profile = {
   phone: "+1 872 222 8218",
   location: "Berlin, Germany / Berkeley, CA",
   socials: {
-    linkedin: "https://www.linkedin.com/in/alexander-iliev", // Assumed URL or from text
+    linkedin: "https://www.linkedin.com/in/ailiev/", // Assumed URL or from text
     googleScholar: "https://scholar.google.bg/citations?view_op=list_works&hl=en&hl=en&user=Utj-jAgAAAAJ&pagesize=80", // Placeholder/Search if needed, text says "Alexander Iliev, Ph.D."
     orcid: "https://orcid.org/0000-0002-4220-3037",
     researchGate: "https://www.researchgate.net/" // Search if needed
@@ -24,14 +24,14 @@ export const profile = {
       url: "https://www.srh-university.de/en/srh-university/faculty-and-team/iliev-alexander/"
     },
     {
-      role: "Associate Professor",
-      institution: "Bulgarian Academy of Sciences, Sofia, Bulgaria",
-      url: "https://math.bas.bg/academic-staff/?lang=en"
-    },
-    {
       role: "Lead Instructor",
       institution: "UC Berkeley, Berkeley California, USA",
       url: "https://www.ischool.berkeley.edu/people/alexander-iliev"
+    },
+    {
+      role: "Associate Professor",
+      institution: "Bulgarian Academy of Sciences, Sofia, Bulgaria",
+      url: "https://math.bas.bg/academic-staff/?lang=en"
     },
     {
       role: "Professor and Member of Dissertation Committee",
@@ -76,10 +76,23 @@ export const experience = [
     role: "Professor & Academic Head",
     institution: "SRH Berlin University, Germany",
     period: "Nov 2019 - Current",
+    url: "https://www.srh-university.de/en/srh-university/faculty-and-team/iliev-alexander/",
     details: [
       "Academic Head of the Big Data and AI program",
       "Master's thesis supervisor",
       "Teaching: Machine Learning, AI Use Cases, Python Programming for AI, Big Data and Cyber Security"
+    ]
+  },
+  {
+    role: "Associate Professor",
+    institution: "Bulgarian Academy of Sciences, Bulgaria",
+    period: "Nov 2014 - Current",
+    url: "https://math.bas.bg/academic-staff/?lang=en",
+    details: [
+      "Research in Big Data and AI areas",
+      "Associate Professor at Software Engineering and Information Systems Dept",
+      "Research in AI and Smart Systems through Speech and Audio Signals",
+      "Applied Python and Android Development"
     ]
   },
   {
@@ -93,17 +106,6 @@ export const experience = [
       "Teaching Python for Analytics",
       "Lecturer at School of Information (Aug 2018 - July 2019)",
       "Teaching Machine Learning for the MIDS program"
-    ]
-  },
-  {
-    role: "Associate Professor",
-    institution: "Bulgarian Academy of Sciences, Bulgaria",
-    period: "Nov 2014 - Current",
-    details: [
-      "Research in Big Data and AI areas",
-      "Associate Professor at Software Engineering and Information Systems Dept (Nov 2014 - April 2023)",
-      "Research in AI and Smart Systems through Speech and Audio Signals",
-      "Applied Python and Android Development"
     ]
   },
   {
@@ -197,14 +199,14 @@ export const projects = [
     title: "H2020 BOWI - Boosting Widening Digital Innovation Hubs",
     period: "Dec 2020 - Sep 2021",
     institution: "Virtech",
-    link: "https://bowi-network.eu/"
+    link: "https://spaces.fundingbox.com/spaces/bowi-inspiration-space/603de41a9bbc1905d0abb6df"
   },
   {
     title: "H2020 Cross4Health",
     period: "May 2019 - Sep 2019",
     details: "Subproject: SNIPE - SeNsing Instrument for PatEnt with Liver Disease",
     institution: "Virtech",
-    link: "https://cross4health.eu/"
+    link: "https://ec.europa.eu/newsroom/horizon2020/items/607332/en"
   },
   {
     title: "H2020 WE-TRANSFORM",
