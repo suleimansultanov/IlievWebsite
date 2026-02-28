@@ -10,6 +10,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
         { id: 'education', label: 'Education' },
         { id: 'patents', label: 'Patents' },
         { id: 'awards', label: 'Awards' },
+        { id: 'consulting', label: 'Consulting' },
     ];
 
     return (

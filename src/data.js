@@ -375,3 +375,120 @@ export const patents = [
     link: "https://portal.bpo.bg/bpo-registers/utility-models/view/BG_U_2025_6432"
   }
 ];
+
+export const consulting = {
+  header: {
+    title: "CONSULTING",
+    subtitle: "Strategic AI Advisory & Intelligent Systems Architecture",
+    name: "Alexander Iliev, Ph.D.",
+    description: "With over two decades of international experience across the United States and Europe, I advise enterprises, research institutions, and innovation-driven organizations on the design and deployment of advanced Artificial Intelligence systems.\nMy work integrates deep scientific research, patented psychoacoustic technologies with commercially licensed solutions, and large-scale AI architectures deployed across academic, industrial, and EU-funded initiatives.\nI operate at the intersection of:",
+    list: [
+      "Artificial Intelligence",
+      "Machine Learning & Deep Learning",
+      "Intelligent Agent Architectures",
+      "Data Analytics & Big Data Systems",
+      "Acoustics & Psychoacoustics"
+    ],
+    closing: "The focus is not experimentation — it is deployable intelligence."
+  },
+  dnasound: {
+    title: "DNASound",
+    subtitle: "AI Agents | Unified Sensory Intelligence",
+    description: "DNASound is my applied AI venture dedicated to building next-generation intelligent systems.\nThe mission of DNASound is Unified Sensory Intelligence — designing AI architectures that integrate perception, reasoning, signal processing, and decision-making into cohesive, production-ready systems.\nDNASound focuses on:",
+    list: [
+      "Enterprise AI Agent Development",
+      "Multi-modal Intelligence Systems",
+      "Advanced Machine Learning Architectures",
+      "Sensory Data Processing (Audio, Speech, Behavioral Signals)",
+      "Intelligent System Orchestration"
+    ],
+    closing: "The dedicated platform for DNASound will be available soon at: www.dnasound.com",
+    url: "http://www.dnasound.com"
+  },
+  domains: {
+    title: "Core Consulting Domains",
+    items: [
+      {
+        title: "1. AI Agent Architecture & Autonomous Systems",
+        description: "Design and deployment of enterprise-grade AI agents and decision systems, including:",
+        list: [
+          "Retrieval-Augmented Generation (RAG) systems",
+          "Domain-specific LLM integration",
+          "Secure enterprise knowledge agents",
+          "Autonomous workflow orchestration",
+          "Agent-based automation pipelines",
+          "Multi-agent system design"
+        ],
+        focus: "Focus: scalable, secure, business-aligned architectures."
+      },
+      {
+        title: "2. Machine Learning & Advanced Modeling",
+        description: "Strategic and technical guidance in:",
+        list: [
+          "Predictive modeling & forecasting systems",
+          "Deep learning architectures (CNNs, transformers, hybrid models)",
+          "Explainable AI (XAI) frameworks",
+          "Bias detection & mitigation",
+          "Production ML pipelines",
+          "Research-to-deployment transitions"
+        ],
+        focus: "Focus: measurable performance and long-term maintainability."
+      },
+      {
+        title: "3. Data Strategy & Intelligent Infrastructure",
+        description: "End-to-end data architecture consulting:",
+        list: [
+          "Big Data processing systems",
+          "Scalable AI infrastructure design",
+          "Feature engineering & signal modeling",
+          "Personalization engines",
+          "Behavioral analytics systems",
+          "Decision-support platforms"
+        ],
+        focus: "Focus: turning complex data ecosystems into strategic assets."
+      },
+      {
+        title: "4. Acoustics, Psychoacoustics & AI-Driven Signal Systems",
+        description: "Based on patented research and peer-reviewed scientific contributions:",
+        list: [
+          "Speech analysis & emotion recognition systems",
+          "Audio watermarking & data hiding",
+          "Psychoacoustic modeling",
+          "Perceptual AI systems",
+          "Sensory intelligence design"
+        ],
+        focus: "Focus: scientifically grounded signal intelligence with commercial viability."
+      }
+    ]
+  },
+  engagement: {
+    title: "Engagement Models",
+    description: "Consulting engagements may include:",
+    list: [
+      "Executive-level AI strategy advisory",
+      "System architecture design",
+      "Enterprise AI roadmap development",
+      "Technical due diligence",
+      "Prototype design & validation",
+      "Innovation & patent strategy consulting",
+      "Research collaboration structuring"
+    ],
+    closing: "Engagements are tailored for organizations seeking long-term AI capability — not one-off experimentation."
+  },
+  philosophy: {
+    title: "Consulting Philosophy",
+    description: "My approach combines:",
+    list: [
+      "Scientific rigor",
+      "Engineering discipline",
+      "Ethical AI standards",
+      "Scalable system thinking",
+      "Cross-domain integration"
+    ],
+    closing: "Every engagement is built around one principle:\nIntelligence must be engineered — not improvised."
+  },
+  contact: {
+    title: "Contact",
+    description: "For strategic advisory, enterprise collaboration, or system architecture consulting inquiries, please reach out directly."
+  }
+};

@@ -6,6 +6,7 @@ import Publications from './sections/Publications';
 import Education from './sections/Education';
 import Patents from './sections/Patents';
 import Awards from './sections/Awards';
+import Consulting from './sections/Consulting';
 
 const ContentArea = ({ activeTab }) => {
     const renderContent = () => {
@@ -24,6 +25,8 @@ const ContentArea = ({ activeTab }) => {
                 return <Patents />;
             case 'awards':
                 return <Awards />;
+            case 'consulting':
+                return <Consulting />;
             default:
                 return <About />;
         }

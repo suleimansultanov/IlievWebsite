@@ -208,3 +208,29 @@
         flex-direction: column;
     }
 }
+
+/* Consulting specific */
+.consultingSection {
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.consultingSection:last-child {
+    border-bottom: none;
+}
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text-main);
+    margin-bottom: var(--spacing-sm);
+    white-space: pre-wrap;
+}
+
+.domainItem {
+    background: #fbfbfb;
+    border: 1px solid #e2e8f0;
+    padding: var(--spacing-md);
+    border-radius: 8px;
+}
