@@ -34,7 +34,10 @@ const ContentArea = ({ activeTab }) => {
 
     return (
         <main style={{ flex: 1, paddingBottom: '3rem' }}>
-            {renderContent()}
+            {/* The key prop forces a re-mount on tab change, triggering the section entry animation */}
+            <div key={activeTab}>
+                {renderContent()}
+            </div>
         </main>
     );
 };

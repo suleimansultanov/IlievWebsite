@@ -329,14 +329,14 @@ export const languages = ["English (Fluent)", "Bulgarian (Native)", "Russian (Wo
 export const awards = [
   "Best paper award \"Crystal Cube Prize The Best Paper\" at the 22nd International Conference on Computer Systems and Technologies CompSysTech'21, Ruse, Bulgaria",
   "Best paper award \"Crystal Cube Prize The Best Paper\" at the 18th International Conference on Computer Systems and Technologies CompSysTech'17, Ruse, Bulgaria, June.22-24.2017",
-  "Honor Society \"Eta Kappa Nu\", Nov.2006",
-  "Best Attendance Award - UM, Jun-Dec.2003",
-  "Best Attendance Award - UM, Jan-Jun.2004"
+  "Honor Society \"Eta Kappa Nu\", University of Miami, Florida, USA, Nov.2006",
+  "Best Attendance Award - UM, University of Miami, Florida, USA, Jun-Dec.2003",
+  "Best Attendance Award - UM, University of Miami, Florida, USA, Jan-Jun.2004"
 ];
 
 export const fellowshipsHonors = [
-  "Fellowship from the Provost at University of Miami, May.2006",
-  "Senator of the Graduate Student Association, 2007-2009",
+  "Fellowship from the Provost at University of Miami, Florida, USA, May.2006",
+  "Senator of the Graduate Student Association, University of Miami, Florida, USA, 2007-2009",
   "Audio Engineering Society (AES) Educational Foundation Stipend, Jul.1998-1999"
 ];
 
